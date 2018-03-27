@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="br.org.pythonbrasil.pybr13" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Python Brasil 13</name>
-    <description>Aplicativo do evento Python Brasil 13</description>
+    <name>Python Sudeste 2018</name>
+    <description>Aplicativo do evento Python Sudeste 2018</description>
     <author email="ervilisviana@gmail.com" href="https://github.com/ervilis">Ervilis Viana de Souza</author>
     <content src="index.html" />
     <access origin="*" />

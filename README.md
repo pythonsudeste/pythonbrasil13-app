@@ -1,4 +1,4 @@
-# Python Brasil 13 Mobile App
+# Python Sudeste 2018 - Mobile App
 
 ## How to contribute
 

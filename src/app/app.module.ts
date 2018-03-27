@@ -6,7 +6,6 @@ import { MyApp } from './app.component';
 
 import { PresentationsPage } from '../pages/presentations/presentations';
 import { TutorialsPage } from '../pages/tutorials/tutorials';
-import { SprintsPage } from '../pages/sprints/sprints';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -20,7 +19,6 @@ import { DataService } from './data.service';
     MyApp,
     PresentationsPage,
     TutorialsPage,
-    SprintsPage,
     HomePage,
     TabsPage
   ],
@@ -34,7 +32,6 @@ import { DataService } from './data.service';
     MyApp,
     PresentationsPage,
     TutorialsPage,
-    SprintsPage,
     HomePage,
     TabsPage
   ],
