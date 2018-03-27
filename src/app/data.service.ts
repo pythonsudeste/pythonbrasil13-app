@@ -20,66 +20,93 @@ export class DataService {
                         [
                             "08:00", [{
                                 "title": "Credenciamento",
-                                "room": "",
-                                "description": ""
+                                "room": "Hall de entrada",
+                                "description": "Organização"
                             }]
                         ],
                         [
                             "09:00", [{
                                 "title": "Abertura",
-                                "room": "Auditório",
-                                "description": "Comunidade Python MG"
+                                "room": "Hall de entrada",
+                                "description": "Organização"
                             }]
                         ],
                         [
                             "09:40", [{
-                                "title": "Paola Katherine",
-                                "room": "Auditório",
+                                "title": "Bernardo Fontes",
+                                "room": "Sala Ada Lovelace",
                                 "description": "Keynote"
                             }]
                         ],
                         [
-                            "10:30", [{
-                                "title": "Coffee-break",
-                                "room": "Aquamarine",
+                            "09:50", [{
+                                "title": "Marcelo Andriolli",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Informação Salva: Python ajudando a entender um problema silencioso de saúde pública no Brasil e no mundo, o Suicídio"
+                            }]
+                        ],
+                        [
+                            "10:00", [{
+                                "title": "Marcelo dos Santos Moraes Junior",
+                                "room": "Sala Grace Hooper",
+                                "description": "Como convencer a empresa que a tecnologia "legada" necessita ser migrada para Python"
+                            }]
+                        ],
+                        [
+                            "10:45", [{
+                                "title": "Carlos André Santos Machado",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Django Rest Framework - Criando APIs Rest com 3 linhas de código"
+                            }]
+                        ],
+                        [
+                            "10:50", [{
+                                "title": "Eduardo Spanó, Vitor Hirota, Jessika Darambaris",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Hackeando o setor público com Python"
+                            }]
+                        ],
+                        [
+                            "10:55", [{
+                                "title": "Tonny Dourado",
+                                "room": "Sala Grace Hooper",
+                                "description": "Programação Assíncrona com Twisted"
+                            }]
+                        ],
+                        [
+                            "11:35", [{
+                                "title": "Almoço",
+                                "room": "Sala Mary Jackson",
                                 "description": ""
                             }]
                         ],
                         [
-                            "11:00", [{
-                                    "title": "Jessica Temporal",
-                                    "room": "Auditório",
-                                    "description": "Serenata de Amor: Inteligência artificial usando dados abertos governamentais"
-                                },
-                                {
-                                    "title": "Tiago Assunção",
-                                    "room": "Sala Amethyst",
-                                    "description": "Python na Manutenção de mais de 100 mil embarcados"
-                                },
-                                {
-                                    "title": "Ryllari Santana",
-                                    "room": "Sala Chrystal",
-                                    "description": "Como NÃO programar em Python: crimes dolosos e com agravante"
-                                }
-                            ]
+                            "11:40", [{
+                                "title": "Almoço",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": ""
+                            }]
                         ],
                         [
-                            "11:40", [{
-                                    "title": "Elinaldo Monteiro",
-                                    "room": "Auditório",
-                                    "description": "0o0 Bots (automatizando tarefas) um funcionário que não reclama!"
-                                },
-                                {
-                                    "title": "Hélio de Meira Lins",
-                                    "room": "Sala Amethyst",
-                                    "description": "Decifrando as Runas dos Anões com Python e Machado de Assis"
-                                },
-                                {
-                                    "title": "Bruno Rocha",
-                                    "room": "Sala Chrystal",
-                                    "description": "A Qualidade do Ecossistema Python - e o que podemos fazer para mante-la"
-                                }
-                            ]
+                            "11:45", [{
+                                "title": "Almoço",
+                                "room": "Sala Ada Lovelace",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "11:50", [{
+                                "title": "Almoço",
+                                "room": "Sala Grace Hooper",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "12:05", [{
+                                "title": "Almoço",
+                                "room": "Sala Katherine Johnson",
+                                "description": ""
+                            }]
                         ],
                         [
                             "12:15", [{
@@ -89,84 +116,114 @@ export class DataService {
                             }]
                         ],
                         [
-                            "14:00", [{
-                                    "title": "Nicolle Cysneiros",
-                                    "room": "Auditório",
-                                    "description": "GraphQL: nem sempre REST é a melhor alternativa para sua API"
-                                },
-                                {
-                                    "title": "Gustavo Pantuza",
-                                    "room": "Sala Amethyst",
-                                    "description": "Wrapping C libraries into Python interfaces"
-                                },
-                                {
-                                    "title": "Daniela Petruzalek",
-                                    "room": "Sala Chrystal",
-                                    "description": "Big Data com Apache Spark na Globo.com"
-                                }
-                            ]
+                            "13:10", [{
+                                "title": "Palestrante a definir",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Palestra a definir"
+                            }]
                         ],
                         [
-                            "14:40", [{
-                                    "title": "Osvaldo Santana",
-                                    "room": "Auditório",
-                                    "description": "Plataforma distribuída de Microserviços ou, como a Olist funciona"
-                                },
-                                {
-                                    "title": "Flavio Juvenal",
-                                    "room": "Sala Amethyst",
-                                    "description": "Prevenindo dores de cabeça com linters e checagens automáticas"
-                                },
-                                {
-                                    "title": "Gileno Filho",
-                                    "room": "Sala Chrystal",
-                                    "description": "Criando Web Crawlers com Scrapy e Selenium para páginas com Javascript"
-                                }
-                            ]
+                            "13:15", [{
+                                "title": "Bárbara Barbosa",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Deep NLP - Redes neurais revolucionando o processamento de linguagem natural"
+                            }]
                         ],
                         [
-                            "15:20", [{
-                                    "title": "Artur Rodrigues",
-                                    "room": "Auditório",
-                                    "description": "Python na Infraestrutura MySQL do Facebook"
-                                },
-                                {
-                                    "title": "Julio Melanda",
-                                    "room": "Sala Amethyst",
-                                    "description": "Desafios e vantagens do trabalho remoto freelancer Python"
-                                },
-                                {
-                                    "title": "Bianca Rosa",
-                                    "room": "Sala Chrystal",
-                                    "description": "Redes Neurais com Python e Scikit"
-                                }
-                            ]
+                            "13:20", [{
+                                "title": "Paulo Henrique Rodrigues Pinheiro",
+                                "room": "Sala Grace Hooper",
+                                "description": "CherryPy - um framework simples, sólido e eficiente"
+                            }]
                         ],
                         [
-                            "16:00", [{
-                                "title": "Coffee-break",
-                                "room": "Aquamarine",
+                            "14:05", [{
+                                "title": "Luiz Lima",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Python + FabLab - Programando objetos para fabricação digital"
+                            }]
+                        ],
+                        [
+                            "14:10", [{
+                                "title": "Thais Viana",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Design e Desenvolvimento (Comunicação e Integração)"
+                            }]
+                        ],
+                        [
+                            "14:15", [{
+                                "title": "Lightining Talks",
+                                "room": "Sala Grace Hooper",
                                 "description": ""
                             }]
                         ],
                         [
-                            "16:30", [{
-                                "title": "Lightning Talks",
-                                "room": "Auditório",
+                            "13:55", [{
+                                "title": "Pausa",
+                                "room": "Sala Mary Jackson",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:35", [{
+                                "title": "Pausa",
+                                "room": "Sala Katherine Johnson",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:50", [{
+                                "title": "Pausa",
+                                "room": "Sala Grace Hooper",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "15:00", [{
+                                "title": "Pausa",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "15:05", [{
+                                "title": "Pausa",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "16:05", [{
+                                "title": "Gabriel Marcondes",
+                                "room": "Sala Ada Lovelace",
+                                "description": "[Web] [Startups] De Startup a Enterprise: os problemas e as soluções do Python na trajetória de uma empresa"
+                            }]
+                        ],
+                        [
+                            "16:10", [{
+                                "title": "Thaíssa Falbo",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Pedagogia Tecnológica"
+                            }]
+                        ],
+                        [
+                            "17:00", [{
+                                "title": "Palestrante a definir",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Palestra a definir"
+                            }]
+                        ],
+                        [
+                            "17:05", [{
+                                "title": "Lightining Talks",
+                                "room": "Hall de entrada",
                                 "description": ""
                             }]
                         ],
                         [
-                            "17:10", [{
-                                "title": "Manuel Kaufmann",
-                                "room": "Auditório",
-                                "description": "Keynote"
-                            }]
-                        ],
-                        [
-                            "18:00", [{
+                            "17:55", [{
                                 "title": "Encerramento",
-                                "room": "Auditório",
+                                "room": "Hall de entrada",
                                 "description": ""
                             }]
                         ]
@@ -177,155 +234,212 @@ export class DataService {
                     "label": "Sábado",
                     "items": [
                         [
-                            "08:30", [{
+                            "08:00", [{
                                 "title": "Credenciamento",
-                                "room": "",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "09:00", [{
-                                "title": "Lightning Talks",
-                                "room": "Auditório",
-                                "description": ""
+                                "room": "Hall de entrada",
+                                "description": "Organização"
                             }]
                         ],
                         [
                             "09:40", [{
-                                "title": "Rodolpho Eckhardt",
-                                "room": "Auditório",
+                                "title": "Palestrante a definir",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Palestra a definir"
+                            }]
+                        ],
+                        [
+                            "09:45", [{
+                                "title": "Francisco Fernandes",
+                                "room": "Sala Grace Hooper",
+                                "description": "Jujubot: Implementando um twitter bot da Vovó Juju"
+                            }]
+                        ],
+                        [
+                            "09:50", [{
+                                "title": "Mariana Bedran Lesche",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Explorando QuerySets do Django"
+                            }]
+                        ],
+                        [
+                            "10:35", [{
+                                "title": "Patrick da Silveira Porto",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Event Sourcing em Python"
+                            }]
+                        ],
+                        [
+                            "10:40", [{
+                                "title": "Michael Willian Trindade Coelho",
+                                "room": "Sala Grace Hooper",
+                                "description": "AWS - Uma visão ampla sobre a cloud da Amazon"
+                            }]
+                        ],
+                        [
+                            "10:45", [{
+                                "title": "Cássio Botaro",
+                                "room": "Sala Ada Lovelace",
                                 "description": "Keynote"
                             }]
                         ],
                         [
-                            "10:30", [{
-                                "title": "Coffee-break",
-                                "room": "Aquamarine",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "11:00", [{
-                                    "title": "Paula Grangeiro",
-                                    "room": "Auditório",
-                                    "description": "Agilizando o ciclo de desenvolvimento de software com a ajuda de testes unitários"
-                                },
-                                {
-                                    "title": "Lais Varejão",
-                                    "room": "Sala Amethyst",
-                                    "description": "Salvando grandes projetos"
-                                },
-                                {
-                                    "title": "Diego \"Dukão\" Guimarães",
-                                    "room": "Sala Chrystal",
-                                    "description": "Kivy: Python no celular e em vários outros lugares!"
-                                }
-                            ]
-                        ],
-                        [
-                            "11:40", [{
-                                    "title": "Henrique Bastos",
-                                    "room": "Auditório",
-                                    "description": "The Walking Dev"
-                                },
-                                {
-                                    "title": "Kátia Nakamura",
-                                    "room": "Sala Amethyst",
-                                    "description": "Django Migrations: para entender e perder o medo"
-                                },
-                                {
-                                    "title": "Douglas Bastos",
-                                    "room": "Sala Chrystal",
-                                    "description": "Descomplicando os mocks"
-                                }
-                            ]
-                        ],
-                        [
-                            "12:15", [{
+                            "11:30", [{
                                 "title": "Almoço",
-                                "room": "",
+                                "room": "Sala Dorothy Vaughan",
                                 "description": ""
                             }]
                         ],
                         [
-                            "14:00", [{
-                                    "title": "Diogo Martins",
-                                    "room": "Auditório",
-                                    "description": ""
-                                },
-                                {
-                                    "title": "Associação Python Brasil",
-                                    "room": "Sala Amethyst",
-                                    "description": "Reunião da associação ApyB"
-                                },
-                                {
-                                    "title": "Álvaro \"Turicas\" Justen",
-                                    "room": "Sala Chrystal",
-                                    "description": "Gênero e Número: Python ajudando nas questões de gênero brasileiras"
-                                }
-                            ]
+                            "11:35", [{
+                                "title": "Almoço",
+                                "room": "Sala Grace Hooper",
+                                "description": ""
+                            }]
                         ],
                         [
-                            "14:40", [{
-                                    "title": "Alice Adativa",
-                                    "room": "Auditório",
-                                    "description": "Python, ciência dos dados e redes sociais: uma combinação poderosa"
-                                },
-                                {
-                                    "title": "Associação Python Brasil",
-                                    "room": "Sala Amethyst",
-                                    "description": "Reunião da associação ApyB"
-                                },
-                                {
-                                    "title": "Thomaz Reis",
-                                    "room": "Sala Chrystal",
-                                    "description": "Generators e Programação Assincrona com Python"
-                                }
-                            ]
+                            "11:55", [{
+                                "title": "Almoço",
+                                "room": "Sala Ada Lovelace",
+                                "description": ""
+                            }]
                         ],
                         [
-                            "15:20", [{
-                                    "title": "Paula Santos",
-                                    "room": "Auditório",
-                                    "description": "Análise de imagens e machine learning utilizando Python e openCV"
-                                },
-                                {
-                                    "title": "Associação Python Brasil",
-                                    "room": "Sala Amethyst",
-                                    "description": "Reunião da associação ApyB"
-                                },
-                                {
-                                    "title": "Alan Justino",
-                                    "room": "Sala Chrystal",
-                                    "description": "Python Runtime sem GIL em Golang: Grumpy"
-                                }
-                            ]
+                            "12:00", [{
+                                "title": "Almoço",
+                                "room": "Sala Mary Jackson",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "12:00", [{
+                                "title": "Almoço",
+                                "room": "Sala Katherine Johnson",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "13:10", [{
+                                "title": "Diego (Dukão) Moreira Guimarães",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Fazendo Música com Sonic Pi"
+                            }]
+                        ],
+                        [
+                            "13:15", [{
+                                "title": "Paula Santos",
+                                "room": "Sala Ada Lovelace",
+                                "description": "[Rede Neural] [Científico] O que você precisa saber sobre o básico de uma rede neural"
+                            }]
+                        ],
+                        [
+                            "13:20", [{
+                                "title": "Vinicius Mesel",
+                                "room": "Sala Grace Hooper",
+                                "description": "Mas cadê as oportunidades Python ?"
+                            }]
+                        ],
+                        [
+                            "14:05", [{
+                                "title": "Guto Maia",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "NES Hacks 2 - The Mission"
+                            }]
+                        ],
+                        [
+                            "14:10", [{
+                                "title": "Lucas Teixeira",
+                                "room": "Sala Ada Lovelace",
+                                "description": "De olho no Congresso com Python e Dados Abertos"
+                            }]
+                        ],
+                        [
+                            "14:15", [{
+                                "title": "Lightining Talks",
+                                "room": "Sala Grace Hooper",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "14:30", [{
+                                "title": "Pausa",
+                                "room": "Sala Mary Jackson",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:30", [{
+                                "title": "Pausa",
+                                "room": "Sala Katherine Johnson",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:50", [{
+                                "title": "Pausa",
+                                "room": "Sala Grace Hooper",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "15:00", [{
+                                "title": "Pausa",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "15:05", [{
+                                "title": "Pausa",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Networking"
+                            }]
                         ],
                         [
                             "16:00", [{
-                                "title": "Coffee-break",
-                                "room": "Aquamarine",
+                                "title": "Thiago Garcia da Silva",
+                                "room": "Sala Grace Hooper",
+                                "description": "[Web] Construindo uma visualização de sentimento real-time do Twitter usando emojis"
+                            }]
+                        ],
+                        [
+                            "16:05", [{
+                                "title": "Celso Crivelaro",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Padrões para testes de tela com Python + Selenium e como evitar testes instáveis"
+                            }]
+                        ],
+                        [
+                            "16:10", [{
+                                "title": "Jean Carlo Ferreira de Oliveira",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Arquitetura da Open edX"
+                            }]
+                        ],
+                        [
+                            "16:55", [{
+                                "title": "Bianca Rosa de Mendonça",
+                                "room": "Sala Grace Hooper",
+                                "description": "Python Web Frameworks - Quais são e como escolher!"
+                            }]
+                        ],
+                        [
+                            "17:00", [{
+                                "title": "Michel Lacerda",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Python na Astronomia"
+                            }]
+                        ],
+                        [
+                            "17:05", [{
+                                "title": "Lightining Talks",
+                                "room": "Hall de entrada",
                                 "description": ""
                             }]
                         ],
                         [
-                            "16:30", [{
-                                "title": "Lightning Talks",
-                                "room": "Auditório",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "17:10", [{
-                                "title": "Allison Kaptur",
-                                "room": "Auditório",
-                                "description": "Keynote"
-                            }]
-                        ],
-                        [
-                            "18:00", [{
+                            "17:55", [{
                                 "title": "Encerramento",
-                                "room": "Auditório",
+                                "room": "Hall de entrada",
                                 "description": ""
                             }]
                         ]
@@ -336,166 +450,205 @@ export class DataService {
                     "label": "Domingo",
                     "items": [
                         [
-                            "08:30", [{
+                            "08:00", [{
                                 "title": "Credenciamento",
-                                "room": "",
-                                "description": ""
+                                "room": "Hall de entrada",
+                                "description": "Organização"
                             }]
                         ],
                         [
-                            "09:00", [{
-                                "title": "Lightning Talks",
-                                "room": "Auditório",
-                                "description": ""
+                            "09:15", [{
+                                "title": "Luciano Ratamero",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "API Star: novo framework REST do criador do DRF"
                             }]
                         ],
                         [
-                            "09:40", [{
-                                    "title": "Darlene Medeiros",
-                                    "room": "Auditório",
-                                    "description": "Padrões Arquiteturais, muito além do MVC"
-                                },
-                                {
-                                    "title": "Rebeca Sarai",
-                                    "room": "Sala Amethyst",
-                                    "description": "Previsão de séries temporais com PyData e Inteligência Artificial"
-                                },
-                                {
-                                    "title": "Celso Crivelaro",
-                                    "room": "Sala Chrystal",
-                                    "description": "Projetos de APIs: O que pensar para APIs Públicas, Microsserviços e SPAs"
-                                }
-                            ]
+                            "09:20", [{
+                                "title": "Laís Pessine do Carmo",
+                                "room": "Sala Grace Hooper",
+                                "description": "GUIs em Python para o seu acelerador de partículas (Projeto Sirius)"
+                            }]
+                        ],
+                        [
+                            "09:25", [{
+                                "title": "Fabiula Moreno Arantes",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Flora do Campus: Identificação e Mapeamento das Árvores do Campus da Unesp de Rio Claro/SP"
+                            }]
+                        ],
+                        [
+                            "10:10", [{
+                                "title": "Yros Aguiar",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "CI/CD - Automatizando a entrega da sua aplicação"
+                            }]
                         ],
                         [
                             "10:15", [{
-                                "title": "Coffee-break",
-                                "room": "Aquamarine",
-                                "description": ""
+                                "title": "Juliano Atanazio",
+                                "room": "Sala Grace Hooper",
+                                "description": "PL/Python - Programando em Python no PostgreSQL"
                             }]
                         ],
                         [
-                            "10:45", [{
-                                    "title": "Talita Rossari",
-                                    "room": "Auditório",
-                                    "description": "O Flask roubou meu coração"
-                                },
-                                {
-                                    "title": "Bernardo Fontes",
-                                    "room": "Sala Amethyst",
-                                    "description": "Navegando por grafos com Python"
-                                },
-                                {
-                                    "title": "Renato Oliveira",
-                                    "room": "Sala Chrystal",
-                                    "description": "Trabalhando com código legado"
-                                }
-                            ]
-                        ],
-                        [
-                            "11:25", [{
-                                    "title": "Navid Sheikhol",
-                                    "room": "Auditório",
-                                    "description": "Facebook Job Engine (FBJE): a framework for developing scalable workflows in Python"
-                                },
-                                {
-                                    "title": "Débora Correia",
-                                    "room": "Sala Amethyst",
-                                    "description": "O que desenvolvedores deveriam aprender sobre design?"
-                                },
-                                {
-                                    "title": "Ana Paula Mendes",
-                                    "room": "Sala Chrystal",
-                                    "description": "Começando com Python - Aprendendo para ensinar, a melhor forma de programar!"
-                                }
-                            ]
-                        ],
-                        [
-                            "12:00", [{
-                                "title": "Almoço",
-                                "room": "",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "13:40", [{
-                                    "title": "Pyladies Brasil",
-                                    "room": "Auditório",
-                                    "description": "PyLadies e Django Girls promovendo a diversidade na tecnologia"
-                                },
-                                {
-                                    "title": "Anderson Resende",
-                                    "room": "Sala Amethyst",
-                                    "description": "A Programação Funcional em Python, de forma simples"
-                                },
-                                {
-                                    "title": "Laura Panzariello",
-                                    "room": "Sala Chrystal",
-                                    "description": "Provisionamento de redes no data center Globo.com com Python"
-                                }
-                            ]
-                        ],
-                        [
-                            "14:20", [{
-                                    "title": "Rael Max",
-                                    "room": "Auditório",
-                                    "description": "O fim de uma era: os desafios de transformar um monolito de 8 anos em microserviços"
-                                },
-                                {
-                                    "title": "Carlos Henrique Coêlho",
-                                    "room": "Sala Amethyst",
-                                    "description": "Python e tipagem estática"
-                                },
-                                {
-                                    "title": "Matheus Souza Fernandes",
-                                    "room": "Sala Chrystal",
-                                    "description": "Usando Python e Django para ampliar a democracia digital"
-                                }
-                            ]
-                        ],
-                        [
-                            "15:00", [{
-                                    "title": "Filipe Ximenes",
-                                    "room": "Auditório",
-                                    "description": "(Quase) Tudo que você precisa saber sobre tarefas assíncronas"
-                                },
-                                {
-                                    "title": "Carla Souza",
-                                    "room": "Sala Amethyst",
-                                    "description": "Linha de Comando: como ser bem implementada e segura"
-                                },
-                                {
-                                    "title": "Ole Peter Smith",
-                                    "room": "Sala Chrystal",
-                                    "description": "Geometria Computacional de Diferencial com Python e SVG: As Curvas da Bosta"
-                                }
-                            ]
-                        ],
-                        [
-                            "15:40", [{
-                                "title": "Coffee-break",
-                                "room": "Aquamarine",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "16:10", [{
-                                "title": "Lightning Talks",
-                                "room": "Auditório",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "16:50", [{
-                                "title": "Andrew Godwin",
-                                "room": "Auditório",
+                            "10:20", [{
+                                "title": "Paula Grangeiro",
+                                "room": "Sala Ada Lovelace",
                                 "description": "Keynote"
                             }]
                         ],
                         [
-                            "17:40", [{
+                            "11:05", [{
+                                "title": "Almoço",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "11:10", [{
+                                "title": "Almoço",
+                                "room": "Sala Grace Hooper",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "11:30", [{
+                                "title": "Almoço",
+                                "room": "Sala Ada Lovelace",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "11:30", [{
+                                "title": "Almoço",
+                                "room": "Sala Mary Jackson",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "12:00", [{
+                                "title": "Almoço",
+                                "room": "Sala Katherine Johnson",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "12:45", [{
+                                "title": "Fernando Gomes de Macedo",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Máquinas de estado em Python"
+                            }]
+                        ],
+                        [
+                            "12:55", [{
+                                "title": "Regis da Silva Santos",
+                                "room": "Sala Grace Hooper",
+                                "description": "Weppy - O framework web para humanos"
+                            }]
+                        ],
+                        [
+                            "13:40", [{
+                                "title": "Álvaro Justen [Turicas]",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Jornalismo de Dados: Programando a Democracia no Brasil"
+                            }]
+                        ],
+                        [
+                            "13:45", [{
+                                "title": "Rafael Galleani",
+                                "room": "Sala Ada Lovelace",
+                                "description": "[ChatBot] [Web] Bot Command - Automatizando tarefas utilizando Python + Django + Telegram!"
+                            }]
+                        ],
+                        [
+                            "13:50", [{
+                                "title": "Lightning Talks",
+                                "room": "Sala Grace Hooper",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "14:00", [{
+                                "title": "Pausa",
+                                "room": "Sala Mary Jackson",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:25", [{
+                                "title": "Pausa",
+                                "room": "Sala Grace Hooper",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:30", [{
+                                "title": "Pausa",
+                                "room": "Sala Katherine Johnson",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:35", [{
+                                "title": "Pausa",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "14:40", [{
+                                "title": "Pausa",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Networking"
+                            }]
+                        ],
+                        [
+                            "15:35", [{
+                                "title": "Henrique Barbosa Coura",
+                                "room": "Sala Grace Hooper",
+                                "description": "Scrapy para usuários de bs4"
+                            }]
+                        ],
+                        [
+                            "15:40", [{
+                                "title": "Bruno Ábia Souza",
+                                "room": "Sala Ada Lovelace",
+                                "description": "Machine Learning com Python - Da Teoria ao Primeiro Deploy em Produção"
+                            }]
+                        ],
+                        [
+                            "15:45", [{
+                                "title": "Renzo Nuccitelli",
+                                "room": "Sala Dorothy Vaughan",
+                                "description": "Programando a Felicidade"
+                            }]
+                        ],
+                        [
+                            "16:30", [{
+                                "title": "Luciano Ramalho",
+                                "room": "Sala Grace Hooper",
+                                "description": "Cadê o paradigma? Teoria a serviço de Python na prática"
+                            }]
+                        ],
+                        [
+                            "16:35", [{
+                                "title": "Aron de Castro Coelho",
+                                "room": "Sala Ada Lovelace",
+                                "description": "[Blockchain] Criando aplicações descentralizadas com Python!"
+                            }]
+                        ],
+                        [
+                            "16:40", [{
+                                "title": "Lightining Talks",
+                                "room": "Hall de entrada",
+                                "description": ""
+                            }]
+                        ],
+                        [
+                            "17:30", [{
                                 "title": "Encerramento",
-                                "room": "Auditório",
+                                "room": "Hall de entrada",
                                 "description": ""
                             }]
                         ]
@@ -503,168 +656,91 @@ export class DataService {
                 }
             ],
             tutorials: [{
-                    "name": "segunda",
-                    "label": "Segunda-feira",
+                    "name": "sexta",
+                    "label": "Sexta-feira",
                     "items": [
                         [
-                            "08:30", [{
-                                "title": "Coffee-break",
-                                "room": "",
-                                "description": ""
-                            }]
-                        ],
-                        [
-                            "09:00", [{
-                                    "title": "Django Girls Workshop",
-                                    "room": "Salas 0 e 1",
-                                    "description": "Inscreva-se em https://djangogirls.org/belohorizonte/"
+                            "09:35", [{
+                                    "title": "Libertando bases de dados públicas",
+                                    "room": "Sala Mary Jackson",
+                                    "description": "Duração: 3 horas e 20 minutos (+1 hora p/ almoço) - Álvaro Justen [Turicas]"
                                 },
                                 {
-                                    "title": "Bruno Rocha",
-                                    "room": "Sala 2",
-                                    "description": "Aprenda Flask criando um CMS e suas extensões. What The Flask?"
-                                },
-                                {
-                                    "title": "Letícia Portella e Jessica Temporal",
-                                    "room": "Sala 3",
-                                    "description": "Introdução aos Módulos de Análise de Dados"
-                                },
-                                {
-                                    "title": "Roberta Takenaka",
-                                    "room": "Sala 4",
-                                    "description": "Testes: os primeiros passos"
-                                },
-                                {
-                                    "title": "Felipe Morais",
-                                    "room": "Sala 5",
-                                    "description": "Dockerizando suas aplicações Python"
+                                    "title": "Case Recommender: Utilizando Python para desenvolver sistemas de recomendação",
+                                    "room": "Sala Katherine Johnson",
+                                    "description": "Duração: 4 horas (+1 hora p/ almoço) - Arthur Fortes"
                                 }
                             ]
                         ],
                         [
-                            "12:00", [{
-                                "title": "Almoço",
-                                "room": "",
-                                "description": ""
+                            "14:55", [{
+                                "title": "Muito mais que map, filter e reduce",
+                                "room": "Sala Mary Jackson",
+                                "description": "Duração: 3 horas - Eduardo Mendes"
                             }]
                         ],
                         [
-                            "14:00", [{
-                                    "title": "Django Girls Workshop",
-                                    "room": "Salas 0 e 1",
-                                    "description": "Inscreva-se em https://djangogirls.org/belohorizonte/"
-                                },
-                                {
-                                    "title": "Bruno Rocha",
-                                    "room": "Sala 2",
-                                    "description": "Aprenda Flask criando um CMS e suas extensões. What The Flask?"
-                                },
-                                {
-                                    "title": "Fernando Masanori",
-                                    "room": "Sala 3",
-                                    "description": "Introdução à Raspagem de Dados"
-                                },
-                                {
-                                    "title": "Tarsis Azevedo",
-                                    "room": "Sala 4",
-                                    "description": "Estatística para Devs"
-                                },
-                                {
-                                    "title": "Julio Melanda",
-                                    "room": "Sala 5",
-                                    "description": "Criando meu primeiro jogo com Python"
-                                }
-                            ]
-                        ],
-                        [
-                            "17:00", [{
-                                "title": "Coffee-break",
-                                "room": "",
-                                "description": ""
+                            "15:35", [{
+                                "title": "Segurança da Informação e de Software",
+                                "room": "Sala Katherine Johnson",
+                                "description": "Duração: 2 horas e 20 minutos - Felipe Bidu"
                             }]
                         ],
+                        [
+                            "15:55", [{
+                                "title": "Tutorial a definir",
+                                "room": "Sala Katherine Johnson",
+                                "description": "Duração: a definir - Palestrante: a definir"
+                            }]
+                        ]
                     ]
                 },
                 {
-                    "name": "terca",
-                    "label": "Terça-feira",
+                    "name": "sabado",
+                    "label": "Sábado",
                     "items": [
                         [
-                            "08:30", [{
-                                "title": "Coffee-break",
-                                "room": "",
-                                "description": ""
-                            }]
-                        ],
-                        [
                             "09:00", [{
-                                    "title": "PyLadies São Paulo",
-                                    "room": "Sala 0",
-                                    "description": "Curso Básico de Python para Iniciantes"
+                                    "title": "Introdução ao Python",
+                                    "room": "Sala Mary Jackson",
+                                    "description": "Duração: 6 horas e 50 minutos (+1 hora p/ almoço e +1 hora p/ pausa/networking) - David Kwast"
                                 },
                                 {
-                                    "title": "Samuel Sampaio",
-                                    "room": "Sala 1",
-                                    "description": "Introdução ao GIT (Escolinha do prof. Samuka)"
+                                    "title": "Machine Learning com scikit-learn",
+                                    "room": "Sala Katherine Johnson",
+                                    "description": "Duração: 6 horas e 50 minutos (+1 hora p/ almoço e +1 hora p/ pausa/networking) - Danilo J. S. Bellini"
+                                }
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "domingo",
+                    "label": "Domingo",
+                    "items": [
+                        [
+                            "09:35", [{
+                                    "title": "Contas de Padeiro e Outros Hacks Mais",
+                                    "room": "Sala Mary Jackson",
+                                    "description": "Duração: 4 horas (+1 hora p/ almoço) - Henrique Bastos"
                                 },
                                 {
-                                    "title": "Felipe Samuel",
-                                    "room": "Sala 2",
-                                    "description": "Desenvolva sua Rest API complexa em 1 dia"
-                                },
-                                {
-                                    "title": "Nicolle Cysneiros",
-                                    "room": "Sala 3",
-                                    "description": "APIs Inteligentes com API Star"
-                                },
-                                {
-                                    "title": "Gustavo Henrique Nunes",
-                                    "room": "Sala 4",
-                                    "description": "Desenvolvimento de um Web Crawler com Python 3"
+                                    "title": "CODENAMES API: Implementando um jogo de tabuleiro com Django Rest Framework",
+                                    "room": "Sala Katherine Johnson",
+                                    "description": "Duração: 6 horas (+1 hora p/ almoço e +1 hora p/ pausa/networking) - Gerardo Soares"
                                 }
                             ]
                         ],
                         [
-                            "12:00", [{
-                                "title": "Almoço",
-                                "room": "",
-                                "description": ""
+                            "15:00", [{
+                                "title": "Tutorial a definir",
+                                "room": "Sala Katherine Johnson",
+                                "description": "Duração: a definir - Palestrante: a definir"
                             }]
-                        ],
-                        [
-                            "14:00", [{
-                                    "title": "PyLadies São Paulo",
-                                    "room": "Sala 0",
-                                    "description": "Curso Básico de Python para Iniciantes"
-                                },
-                                {
-                                    "title": "Renato Oliveira e Bernardo Fontes",
-                                    "room": "Sala 1",
-                                    "description": "Test Driven Design"
-                                },
-                                {
-                                    "title": "Felipe Samuel",
-                                    "room": "Sala 2",
-                                    "description": "Desenvolva sua Rest API complexa em 1 dia"
-                                },
-                                {
-                                    "title": "Álvaro \"Turicas\" Justen",
-                                    "room": "Sala 3",
-                                    "description": "Capturando dados abertos sem dor de cabeça"
-                                }
-                            ]
-                        ],
-                        [
-                            "17:00", [{
-                                "title": "Coffee-break",
-                                "room": "",
-                                "description": ""
-                            }]
-                        ],
+                        ]
                     ]
                 }
             ],
-            sprints: []
         }
     return schedule;
   }
